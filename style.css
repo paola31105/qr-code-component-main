@@ -1,0 +1,73 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  flex-direction: column;   
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glavni {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  text-align: center;
+  padding: 16px;
+  max-width: 320px;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+}
+
+.glavni img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.glavni h1 {
+  font-size: 1.2rem;
+  color: hsl(218, 44%, 22%);
+  margin: 20px 0 15px;
+}
+
+.glavni p {
+  font-size: 0.9rem;
+  color: hsl(216, 15%, 48%);
+  margin: 0 15px 20px;
+}
+
+.attribution {
+  font-size: 11px; 
+  text-align: center; 
+  margin-bottom: 10px;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 1440px) {
+  .glavni {
+    max-width: 400px;
+    padding: 24px;
+  }
+
+  .glavni h1 {
+    font-size: 1.4rem;
+  }
+
+  .glavni p {
+    font-size: 1rem;
+  }
+}
